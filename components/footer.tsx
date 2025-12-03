@@ -26,17 +26,6 @@ export function Footer() {
             <p style={{ color: "#6b7e85" }} className="text-sm leading-relaxed mb-4">
               Bringing Reliability Back to IT
             </p>
-            {/* Business Information */}
-            <div className="space-y-2 mt-4 pt-4 border-t" style={{ borderColor: "rgba(255, 255, 255, 0.08)" }}>
-              <p style={{ color: "#6b7e85" }} className="text-xs">
-                202503193027 (KT0595180-A)
-              </p>
-              <p style={{ color: "#6b7e85" }} className="text-xs leading-relaxed">
-                1525, Pacific63@PJ Centre, No. 5, Jalan 13/6, Sek 13,
-                <br />
-                Petaling Jaya, Selangor, Malaysia
-              </p>
-            </div>
           </div>
 
           {/* Services */}

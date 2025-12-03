@@ -9,7 +9,7 @@ import { Footer } from "@/components/footer"
 import { WhatsAppButton } from "@/components/whatsapp-button"
 import { HeroGeometric } from "@/components/ui/hero-geometric"
 import { GravityStarsBackground } from "@/components/ui/gravity-stars-background"
-import { Mail, Phone, MapPin, MessageCircle, CheckCircle2, AlertCircle, Loader2 } from "lucide-react"
+import { Mail, Phone, MessageCircle, CheckCircle2, AlertCircle, Loader2 } from "lucide-react"
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
@@ -100,11 +100,6 @@ export default function Contact() {
             {[
               { icon: Mail, label: "Email", value: "info@nasitssolutions.com" },
               { icon: Phone, label: "Phone", value: "+60 16 231 3385" },
-              { 
-                icon: MapPin, 
-                label: "Location", 
-                value: "1525, Pacific63@PJ Centre, No. 5, Jalan 13/6, Sek 13, Petaling Jaya, Selangor, Malaysia" 
-              },
             ].map((contact, idx) => {
               const Icon = contact.icon
               return (
@@ -120,13 +115,6 @@ export default function Contact() {
                   <p style={{ color: "#eceded" }} className="opacity-75 text-sm leading-relaxed">
                     {contact.value}
                   </p>
-                  {contact.label === "Location" && (
-                    <div className="mt-3 pt-3 border-t" style={{ borderColor: "rgba(255, 255, 255, 0.1)" }}>
-                      <p style={{ color: "#6b7e85" }} className="text-xs">
-                        Reg. No: 202503193027 (KT0595180-A)
-                      </p>
-                    </div>
-                  )}
                 </div>
               )
             })}

@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://nasitssolutins.com"
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://nasitssolutions.com"
 const siteName = "NAS IT Smart Solutions"
 const defaultDescription =
   "Trusted reseller of premium refurbished IT devices in Malaysia. Save up to 70% on enterprise-grade laptops, servers, and workstations. 15+ years expertise, 6-month warranty, quality assurance guaranteed."
@@ -72,8 +72,8 @@ export function generateMetadata({
       title: fullTitle,
       description,
       images: [`${siteUrl}/og-image.png`],
-      creator: "@nasitssolutins",
-      site: "@nasitssolutins",
+      creator: "@nasitssolutions",
+      site: "@nasitssolutions",
     },
     robots: {
       index: !noindex,

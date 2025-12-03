@@ -157,7 +157,7 @@ export default function Projects() {
         movementSpeed={0.5}
         mouseInfluence={120}
         mouseGravity="attract"
-        className="fixed inset-0 -z-0 pointer-events-none"
+        className="fixed inset-0 z-0 pointer-events-none"
       />
       <AnimatedNetworkBG />
       <div className="relative z-10">

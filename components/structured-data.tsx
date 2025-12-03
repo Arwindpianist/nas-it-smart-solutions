@@ -2,32 +2,25 @@ import { generateStructuredData } from "@/lib/seo"
 
 export function StructuredData() {
   const organizationSchema = generateStructuredData({
-    type: "LocalBusiness",
+    type: "Organization",
     contactPoint: {
       telephone: "+60-16-231-3385",
       contactType: "customer service",
-      email: "info@nasitssolutins.com",
+      email: "info@nasitssolutions.com",
     },
-    address: {
-      streetAddress: "1525, Pacific63@PJ Centre, No. 5, Jalan 13/6, Sek 13",
-      addressLocality: "Petaling Jaya",
-      addressRegion: "Selangor",
-      postalCode: "46200",
-      addressCountry: "MY",
-    },
-    logo: "https://nasitssolutins.com/favicon.svg",
+    logo: "https://nasitssolutions.com/favicon.svg",
   })
 
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "NAS IT Smart Solutions",
-    url: "https://nasitssolutins.com",
+    url: "https://nasitssolutions.com",
     potentialAction: {
       "@type": "SearchAction",
       target: {
         "@type": "EntryPoint",
-        urlTemplate: "https://nasitssolutins.com/search?q={search_term_string}",
+        urlTemplate: "https://nasitssolutions.com/search?q={search_term_string}",
       },
       "query-input": "required name=search_term_string",
     },
@@ -41,31 +34,31 @@ export function StructuredData() {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://nasitssolutins.com",
+        item: "https://nasitssolutions.com",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "About",
-        item: "https://nasitssolutins.com/about",
+        item: "https://nasitssolutions.com/about",
       },
       {
         "@type": "ListItem",
         position: 3,
         name: "Services",
-        item: "https://nasitssolutins.com/services",
+        item: "https://nasitssolutions.com/services",
       },
       {
         "@type": "ListItem",
         position: 4,
         name: "Projects",
-        item: "https://nasitssolutins.com/projects",
+        item: "https://nasitssolutions.com/projects",
       },
       {
         "@type": "ListItem",
         position: 5,
         name: "Contact",
-        item: "https://nasitssolutins.com/contact",
+        item: "https://nasitssolutions.com/contact",
       },
     ],
   }

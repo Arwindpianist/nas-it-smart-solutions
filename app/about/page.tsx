@@ -91,79 +91,35 @@ export default function About() {
         </div>
       </section>
 
-      {/* Director Profile */}
+      {/* Stats Section */}
       <section className="relative z-20 py-24 px-4">
         <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {/* Director Profile - Centered */}
-            <div className="lg:col-span-2 glass-neon-active p-8 md:p-12 rounded-2xl text-center lg:text-left">
-              <h2 style={{ color: "#1cfcfc" }} className="text-3xl font-bold mb-4 neon-text-glow">
-                Meet Our Director
-              </h2>
-              <p style={{ color: "#33cccc" }} className="text-lg font-semibold mb-2">
-                Nora
-              </p>
-              <p style={{ color: "#eceded" }} className="opacity-75 mb-6">
-                20+ years in IT Solutions & Enterprise Hardware
-              </p>
-              <p style={{ color: "#eceded" }} className="opacity-75 leading-relaxed mb-4">
-                Nora founded NAS IT Smart Solutions with a mission to democratize access to enterprise-grade IT hardware in Malaysia. With deep industry expertise and a commitment to sustainability, she leads our team to deliver exceptional value and reliability to every client.
-              </p>
-              <p style={{ color: "#eceded" }} className="opacity-75 leading-relaxed">
-                With extensive affiliations in the Malaysian IT industry and a proven track record working with major corporations, educational institutions, and government organizations, Nora brings unparalleled experience to help businesses optimize their IT infrastructure while maximizing cost efficiency.
-              </p>
-            </div>
-
-            {/* Stats & Company Info - Centered */}
-            <div className="space-y-6">
-              {[
-                { icon: Award, label: "15+ Years", value: "Industry Excellence" },
-                { icon: Users, label: "500+", value: "Happy Clients" },
-                { icon: CheckCircle2, label: "99.9%", value: "Customer Satisfaction" },
-                { icon: Globe, label: "Regional", value: "Market Leader" },
-              ].map((item, idx) => {
-                const Icon = item.icon
-                return (
-                  <div
-                    key={idx}
-                    className="glass-neon p-6 rounded-xl flex items-start gap-4 animate-slide-up"
-                    style={{ animationDelay: `${idx * 0.1}s` }}
-                  >
-                    <Icon style={{ color: "#33cccc" }} className="w-6 h-6 flex-shrink-0 mt-1" />
-                    <div>
-                      <p style={{ color: "#1cfcfc" }} className="font-bold">
-                        {item.label}
-                      </p>
-                      <p style={{ color: "#eceded" }} className="opacity-75 text-sm">
-                        {item.value}
-                      </p>
-                    </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              { icon: Award, label: "15+ Years", value: "Industry Excellence" },
+              { icon: Users, label: "500+", value: "Happy Clients" },
+              { icon: CheckCircle2, label: "99.9%", value: "Customer Satisfaction" },
+              { icon: Globe, label: "Regional", value: "Market Leader" },
+            ].map((item, idx) => {
+              const Icon = item.icon
+              return (
+                <div
+                  key={idx}
+                  className="glass-neon p-6 rounded-xl flex items-start gap-4 animate-slide-up"
+                  style={{ animationDelay: `${idx * 0.1}s` }}
+                >
+                  <Icon style={{ color: "#33cccc" }} className="w-6 h-6 flex-shrink-0 mt-1" />
+                  <div>
+                    <p style={{ color: "#1cfcfc" }} className="font-bold">
+                      {item.label}
+                    </p>
+                    <p style={{ color: "#eceded" }} className="opacity-75 text-sm">
+                      {item.value}
+                    </p>
                   </div>
-                )
-              })}
-            </div>
-          </div>
-
-          {/* Company Information - Centered */}
-          <div className="mt-12 max-w-2xl mx-auto">
-            <div className="glass-neon p-8 rounded-xl text-center">
-              <h3 style={{ color: "#1cfcfc" }} className="font-bold text-xl mb-6">
-                Company Information
-              </h3>
-              <div className="space-y-3">
-                <p style={{ color: "#eceded" }} className="font-semibold text-lg">
-                  NAS IT SMART SOLUTIONS
-                </p>
-                <p style={{ color: "#6b7e85" }} className="text-sm">
-                  202503193027 (KT0595180-A)
-                </p>
-                <p style={{ color: "#6b7e85" }} className="text-sm leading-relaxed">
-                  1525, Pacific63@PJ Centre, No. 5, Jalan 13/6, Sek 13,
-                  <br />
-                  Petaling Jaya, Selangor, Malaysia
-                </p>
-              </div>
-            </div>
+                </div>
+              )
+            })}
           </div>
         </div>
       </section>

@@ -164,12 +164,6 @@ export default function PrivacyPolicy() {
                 <p>
                   <strong style={{ color: "#eceded" }}>Phone:</strong> +60 16 231 3385
                 </p>
-                <p>
-                  <strong style={{ color: "#eceded" }}>Address:</strong> 1525, Pacific63@PJ Centre, No. 5, Jalan 13/6, Sek 13, Petaling Jaya, Selangor, Malaysia
-                </p>
-                <p>
-                  <strong style={{ color: "#eceded" }}>Registration Number:</strong> 202503193027 (KT0595180-A)
-                </p>
               </div>
             </div>
 

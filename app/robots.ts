@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/", "/admin/"],
       },
     ],
-    sitemap: "https://nasitssolutins.com/sitemap.xml",
+    sitemap: "https://nasitssolutions.com/sitemap.xml",
   }
 }
 

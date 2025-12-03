@@ -1,4 +1,4 @@
-# SEO & Meta Tags Setup for nasitssolutins.com
+# SEO & Meta Tags Setup for nasitssolutions.com
 
 This document outlines the SEO improvements and meta tags implemented for NAS IT Smart Solutions.
 
@@ -11,7 +11,7 @@ This document outlines the SEO improvements and meta tags implemented for NAS IT
 
 ### 2. **Metadata Configuration**
 - Centralized SEO in `lib/seo.ts`
-- Site URL updated to: `https://nasitssolutins.com`
+- Site URL updated to: `https://nasitssolutions.com`
 - All pages have proper metadata via layout files
 
 ### 3. **Page-Specific Metadata**
@@ -25,11 +25,10 @@ Each page has a dedicated layout with optimized metadata:
 
 ### 4. **Structured Data (JSON-LD)**
 Implemented Schema.org markup in `components/structured-data.tsx`:
-- **LocalBusiness** schema with:
+- **Organization** schema with:
   - Contact information
-  - Address (Petaling Jaya, Selangor, Malaysia)
   - Phone: +60-16-231-3385
-  - Email: info@nasitssolutins.com
+  - Email: info@nasitssolutions.com
 - **WebSite** schema with search functionality
 - **BreadcrumbList** for navigation
 
@@ -47,8 +46,8 @@ All pages include:
 - `twitter:title` - Page title
 - `twitter:description` - Page description
 - `twitter:image` - OG image
-- `twitter:creator` - @nasitssolutins
-- `twitter:site` - @nasitssolutins
+- `twitter:creator` - @nasitssolutions
+- `twitter:site` - @nasitssolutions
 
 ### 7. **Sitemap & Robots.txt**
 - **Sitemap**: `app/sitemap.ts` - Auto-generated XML sitemap
@@ -71,7 +70,7 @@ Default keywords for all pages:
 
 Set in production:
 ```env
-NEXT_PUBLIC_SITE_URL=https://nasitssolutins.com
+NEXT_PUBLIC_SITE_URL=https://nasitssolutions.com
 ```
 
 ## 📋 Next Steps for Production
@@ -85,7 +84,7 @@ NEXT_PUBLIC_SITE_URL=https://nasitssolutins.com
    - Add Google Analytics ID if needed
 
 3. **Social Media Setup**
-   - Create Twitter account: @nasitssolutins
+   - Create Twitter account: @nasitssolutions
    - Update Twitter handle in `lib/seo.ts`
 
 4. **Additional Verification**

@@ -1,13 +1,13 @@
 # 🧠 **Project Name**
 
 **NAS IT Smart Solutions**
-**Domain**: nasitssolutins.com *(already purchased on Vercel)*
+**Domain**: nasitssolutions.com *(already purchased on Vercel)*
 
 ---
 
 # 🧩 **Project Pitch (Based on Your Format)**
 
-NAS IT Smart Solutions is a professional reseller specializing in high-quality **refurbished IT devices and value-added services**. With a **proven track record** and **strong industry affiliations through their director**, the company aims to bring reliability and cost-efficiency to businesses and individuals seeking pre-owned tech equipment.
+NAS IT Smart Solutions is a professional reseller specializing in high-quality **refurbished IT devices and value-added services**. With a **proven track record** and **strong industry affiliations**, the company aims to bring reliability and cost-efficiency to businesses and individuals seeking pre-owned tech equipment.
 
 The goal is to build a **modern, trust-focused website** that showcases their expertise, builds customer confidence, and creates a lead-generation system. Zoho Mail will be used for business emails (e.g., [sales@nasitssolutions.com](mailto:sales@nasitssolutions.com)).
 
@@ -18,7 +18,7 @@ The goal is to build a **modern, trust-focused website** that showcases their ex
 1. Establish **industry credibility** & professionalism.
 2. Present **refurbished products & services clearly**.
 3. Collect **leads & inquiries** using a contact form.
-4. Highlight **director’s affiliations & past projects**.
+4. Highlight **company affiliations & past projects**.
 5. Display **quality assurance process** & warranties.
 6. Enable **future e-commerce capability** (Phase 2).
 
@@ -47,9 +47,9 @@ The goal is to build a **modern, trust-focused website** that showcases their ex
 | 🏠 Home                    | Hero + why refurbished + trust elements    |
 | 📌 About Us                | Company story + mission + “Why Choose Us?” |
 | 🛠 Services                | Refurbishing process + warranty + support  |
-| 💼 Projects & Affiliations | Past clients + director portfolio          |
+| 💼 Projects & Affiliations | Past clients + company portfolio          |
 | 🛒 Products (Phase 2)      | Dynamic product listing w/ tags            |
-| 📞 Contact                 | Form + business location + WhatsApp CTA    |
+| 📞 Contact                 | Form + WhatsApp CTA    |
 | 🔐 Privacy Policy          | Required for credibility                   |
 | 📧 Email Setup             | Zoho Mail integration                      |
 
@@ -62,7 +62,7 @@ The goal is to build a **modern, trust-focused website** that showcases their ex
 * Real photos of refurbished processes
 * “Before & After” device showcase
 * Warranty badges (i.e., 6-month warranty)
-* Director’s years of experience
+* Company years of experience
 * Client/Project highlights
 
 ### Lead Generation:
@@ -128,7 +128,7 @@ Sections to emphasize:
 * “Cost Savings vs New Devices”
 * “Our Quality & Testing Process”
 * “Projects & Success Stories”
-* “Meet the Director”
+* “Company History & Expertise”
 * “Refurbished Laptops Malaysia” (Keyword target)
 * “IT Assets Procurement for SMEs”
 
@@ -145,7 +145,7 @@ Website showcasing refurbished IT devices, services, quality assurance, and cont
 | Type      | Goal                                        |
 | --------- | ------------------------------------------- |
 | Primary   | Build trust + generate leads                |
-| Secondary | Showcase director’s track record            |
+| Secondary | Showcase company track record            |
 | Tertiary  | Prepare to sell refurbished products online |
 
 ## **3. User Flow**
